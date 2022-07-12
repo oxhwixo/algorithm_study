@@ -11,7 +11,7 @@ for i in range(len):
 	if i == 0:
 		res = data[i]
 		continue
-	if res == 0 or res == 1:
+	if res == 0 or res == 1 or data[i] == 0 or data[i] == 1:
 		res += data[i]
 	else:
 		res *= data[i]
