@@ -16,7 +16,6 @@ game_map[user[0]][user[1]] = 2
 
 brack_point = True
 
-start = time.time()
 while brack_point == True:
 	back_step = [user[0] + back_steps[user[2]][0], user[1] + back_steps[user[2]][1]]
 	temp_dir = user[2]

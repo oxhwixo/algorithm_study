@@ -1,6 +1,3 @@
-from turtle import st
-
-
 array = input()
 
 str_array = []
