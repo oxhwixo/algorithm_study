@@ -5,7 +5,6 @@ n = int(input())
 
 def bt(num):
     ans.append(int(num))
-    print(num)
     for j in range(0, int(num[-1])): # 제일 끝 자리 보다 낮은 수 까지
         bt(num + str(j))
 
